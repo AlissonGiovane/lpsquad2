@@ -1,2 +1,0 @@
-# lpsquad2
-asdsad
