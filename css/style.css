@@ -1,0 +1,91 @@
+* {
+  scroll-behavior: smooth;
+}
+
+body
+{
+background: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  position: relative;
+}
+
+
+  body {
+      margin: 0px;
+      font-family: 'segoe ui';
+    }
+    
+    .nav {
+      height: 50px;
+      width: 100%;
+      background-color: #4d4d4d;
+      position: relative;
+    }
+    
+    .nav > .navbar-cabecalho {
+      display: inline;
+    }
+    
+    .nav > .navbar-cabecalho > .nav-titulo {
+      display: inline-block;
+      font-size: 22px;
+      color: #fff;
+      padding: 10px 10px 10px 10px;
+    }
+    
+  
+    .nav > .nav-lista {
+      display: inline;
+      float: right;
+      font-size: 18px;
+    }
+    
+    .nav > .nav-lista > a {
+      display: inline-block;
+      padding: 13px 10px 13px 10px;
+      text-decoration: none;
+      color: #efefef;
+    }
+    
+    .nav > .nav-lista > a:hover {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+
+  .nav-titulo > a:hover{
+      background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .nav-titulo a{
+      display: inline-block;
+      padding: 5px -1px 55px 50px;
+      text-decoration: none;
+      color: #efefef;
+      text-align: center ;
+  }
+    
+    
+    @media (max-width:600px) {
+      .nav > .nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+      }
+
+      .nav > .nav-lista {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: #333;
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 50px;
+        left: 0px;
+      }
+      .nav > .nav-lista > a {
+        display: block;
+        width: 100%;
+      }
+  }
