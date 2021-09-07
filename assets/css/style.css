@@ -616,3 +616,33 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   color: #E5E5E5;
   opacity: 80%;
 }
+
+iframe {
+  width: 50vw;
+  height: 28.125vw;
+  max-height: 100vh;
+  max-width: 177.78vw;
+  margin: auto;
+  position: absolute;
+  top: 2100px;
+  left: -585px;
+  right: 0;
+  border-radius: 35px;
+}
+
+.textoteufuturo {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 59px;
+  line-height: 55px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 2200px;
+  left: 780px;
+  color: black;
+}
+
+#roxo {
+  color: #223E6B;
+}
