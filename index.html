@@ -18,6 +18,7 @@
   
     <!-- CSS Principal -->
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/reset.css" rel="stylesheet">
   
   </head>
 
@@ -30,13 +31,13 @@
 
     <h1 class="logo"><a href="index.html">Ten Eighteen</a></h1>
     
-    <nav id="navbar" class="navbar">
+    <nav id="navbar" class="navbar fixed-top">
         <ul>
           <li><a class="nav-link scrollto active" href="quem-somos">Quem Somos?</a></li>
-          <li><a class="nav-link scrollto" href="#">Nosso Squad</a></li>
+          <li><a class="nav-link scrollto" href="#quem-somos">Nosso Squad</a></li>
           <li><a class="nav-link scrollto" href="#">#TeuFuturo</a></li>
-          <li><a class="nav-link scrollto " href="#">Portfólio</a></li>
-          <li><a class="nav-link scrollto" href="#">Projetos Futuros</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio">Portfólio</a></li>
+          <li><a class="nav-link scrollto" href="#nossa-visao">Nossa Visão</a></li>
           <li><a class="nav-link scrollto" href="#">Fale Conosco</a></li>
           <li><a class="nav-link scrollto" href="#">Contato</a></li>
           </li>
@@ -67,10 +68,10 @@
   <!-- ======= Quem somos ======= -->
   <section class="quem-somos" data-aos="fade-up" data-aos-delay="50">
     <h1>QUEM SOMOS?</h1>
-    <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="container d-flex align-items-center justify-content-between" data-aos="fade-up" data-aos-delay="100">
 
-      <div class="conteudo">
-        <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+      <div class="conteudo col-lg-4 col-md-6">
+        <a href="" target="_blank">
           <div class="conteudo-overlay"></div>
           <img class="img-responsive" src="assets/img/Julianne.jpeg" style="width: 100%;">
           <div class="conteudo-details fadeIn-bottom">
@@ -81,9 +82,9 @@
       </div>
     </div>
     
-    <div class="container" data-aos="fade-up" data-aos-delay="200">
-      <div class="conteudo">
-        <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+    <div class="container d-flex align-items-center justify-content-between" data-aos="fade-up" data-aos-delay="200">
+      <div class="conteudo col-lg-4 col-md-6">
+        <a href="" target="_blank">
           <div class="conteudo-overlay"></div>
           <img class=" img-responsive" style="width:100%" src="assets/img/Alisson.jpeg">
           <div class="conteudo-details fadeIn-bottom">
@@ -94,9 +95,9 @@
       </div>
     </div>
     
-    <div class="container" data-aos="fade-up" data-aos-delay="300">
+    <div class="container d-flex align-items-center justify-content-between" data-aos="fade-up" data-aos-delay="300">
       <div class="conteudo">
-        <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+        <a href="" target="_blank">
           <div class="conteudo-overlay"></div>
           <img class=" img-responsive" style="width:100%" src="assets/img/Gabrielle.jpeg">
           <div class="conteudo-details fadeIn-bottom">
@@ -109,6 +110,141 @@
     </div>
   </section><!-- Fim do Quem Somos -->
 
+  <!-- ======= Portfólio ======= -->
+  <section id="portfolio" class="portfolio" data-aos="fade-up" data-aos-delay="600">
+    <div class="container-fluid ">
+      <div class="row col-lg-6 col-md-3 col-sm-3" data-aos="fade-up" data-aos-delay="600">
+        <h1>PORTFÓLIO</h1>
+        <div class="embed-responsive embed-responsive-16by9" id="cont1">
+          <iframe class="embed-responsive-item" id="video1" src="assets/img/pong.mp4" allowfullscreen></iframe>
+        </div>
+        <div class="col-lg-6 col-md-3 col-sm-3" id="text1" data-aos="fade-up" data-aos-delay="600">
+          <h1>JOGO DO PONG</h1>
+          <p class="texto1 fst-italic" id="p1">
+            O primeiro projeto que fizemos, individualmente, foi recriar o famoso jogo “Pong” de duas maneiras diferentes. Primeiramente, para programar esse jogo clássico ultilizamos a plataforma “Scratch”, em que o principal objetivo era entender a lógica de programação. Logo após, recriamos o jogo novamente ultilzando a linguagem JavaScript. Aprendemos a ultilizar variáveis e funções. Criamos o jogo completo, ou seja, com animações, controles, sons e placar.
+          </p> 
+          <p class=" texto1 fst-italic" id="p2">
+            Feito com: Lógica de programação JavaScript
+          </p> 
+      </div>
+      
+
+        <div class="embed-responsive embed-responsive-16by9 " id="cont2" data-aos="fade-up" data-aos-delay="600">
+          <iframe class="embed-responsive-item" src="assets/img/freeway.mp4" id="video2" allowfullscreen></iframe>
+        </div>
+        <div class="col-lg-6 col-md-3 col-sm-3" id="text2">
+          <h1>JOGO DO FREEWAY</h1>
+          <p class="texto2 fst-italic" id="p2">
+            Após o pong, criamos do zero o famoso jogo "Freeway'', com animações, pontuações e sons. Ao desenvolver o código desse jogo aprendemos como usar listas (arrays) e como evitar código duplicado com laços de repetição.
+          </p> 
+          <p class=" texto2 fst-italic" id="p3">
+            Feito com: Lógica de programação JavaScript
+          </p> 
+      </div>
+
+      <div class="embed-responsive embed-responsive-16by9 " id="cont3">
+        <iframe class="embed-responsive-item" src="assets/img/1.mp4" id="video3" allowfullscreen></iframe>
+      </div>
+      <div class="col-lg-6 col-md-3 col-sm-3" id="text3">
+        <h1>PROGRAMAS COM JS E HTML</h1>
+        <p class="texto3 fst-italic" id="p3">
+          O primeiro projeto que fizemos, individualmente, foi recriar o famoso jogo “Pong” de duas maneiras diferentes. Primeiramente, para programar esse jogo clássico ultilizamos a plataforma “Scratch”, em que o principal objetivo era entender a lógica de programação. Logo após, recriamos o jogo novamente ultilzando a linguagem JavaScript. Aprendemos a ultilizar variáveis e funções. Criamos o jogo completo, ou seja, com animações, controles, sons e placar.
+        </p> 
+        <p class=" texto3 fst-italic" id="p4">
+          Feito com: Lógica de programação JavaScript
+        </p> 
+    </div>
+
+      <div class="embed-responsive embed-responsive-16by9 " id="cont4">
+        <iframe class="embed-responsive-item" src="assets/img/nutricao.mp4" id="video4" allowfullscreen></iframe>
+      </div>
+      <div class="col-lg-6 col-md-3 col-sm-3" id="text4">
+        <h1>PROJETO EM JAVASCRIPT</h1>
+        <p class="texto4 fst-italic" id="p5">
+          A fim de aprender mais sobre JS, fizemos uma página em que é possível captar interações do usuário, validar formulários e calcular o IMC. Ao desenvolver esse programa, juntamente com os instrutores da plataforma “Alura”, conhecemos algumas das chamadas boas práticas de organização de código
+        </p> 
+        <p class=" texto4 fst-italic" id="p6">
+          Feito com: Lógica de programação JavaScript
+        </p> 
+    </div>
+
+    <div id="cont5">
+      <img class="img-fluid" alt="Responsive image" src="assets/img/barb1.png" id="img1"></img>
+      <img class="img-fluid" alt="Responsive image" src="assets/img/barb2.png" id="img2"></img>
+    </div>
+    <div class="col-lg-6 col-md-3 col-sm-3" id="text5">
+      <h1>BARBEARIA ALURA</h1>
+      <p class="texto5 fst-italic" id="p7">
+        A fim de conhecer melhor sobre HTML e CSS, desenvolvemos uma página para a fictícia “Barbearia Alura”. Nesse projeto, aprendemos a definir estilos para elementos usando CSS, inline e block, lide com bordas e pseudo-classes no CSS. Além disso, conhecemos o reset.css e a hierarquia no CSS.
+      </p> 
+      <p class=" texto5 fst-italic" id="p8">
+        Feito com: HTML e CSS
+      </p> 
+  </div>
+
+  <div class="embed-responsive embed-responsive-16by9 " id="cont6">
+    <iframe class="embed-responsive-item" src="assets/img/shibui.mp4" id="video6" allowfullscreen></iframe>
+  </div>
+  <div class="col-lg-6 col-md-3 col-sm-3" id="text6">
+    <h1>Restaurante Shibui</h1>
+    <p class="texto6 fst-italic" id="p7">
+      Um restaurante japones, responsivo, com os menus: Ínicio, Chefs, Galeria, Contato e Pratos Especiais
+    </p> 
+    <p class=" texto6 fst-italic" id="p8">
+      Feito com: CSS, Bootstrap, JS, JQUERY, WOW e HTML, 
+    </p> 
+</div>
+
+
+      </div>
+      
+  </section ><!-- Fim do Portifólio -->
+
+
+  <!-- Nossa visão -->
+  <section id="nossa-visao" class="nossa-visao" data-aos="fade-up" data-aos-delay="700">
+
+    <h1>NOSSA VISÃO</h1>
+    <div class="container d-flex align-items-center justify-content-between" data-aos="fade-up" data-aos-delay="100">
+
+      <div class="cmaterial col-lg-4 col-md-6">
+        <a href="" target="_blank">
+          <div class="cmaterial-overlay"></div>
+          <img class="img-responsive" src="assets/img/tech.png" style="width: 100%;">
+          <div class="cmaterial-details fadeIn-bottom">
+            <p>Apaixonados por programar, nosso propósito é impactar vidas através da tecnologia, trazendo mais acessibilidade às pessoas ao redor do mundo.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    
+    <div class="container d-flex align-items-center justify-content-between" data-aos="fade-up" data-aos-delay="200">
+      <div class="cmaterial col-lg-4 col-md-6">
+        <a href="" target="_blank">
+          <div class="cmaterial-overlay"></div>
+          <img class=" img-responsive" style="width:100%" src="assets/img/equipe.png">
+          <div class="cmaterial-details fadeIn-bottom">
+            <p>Sempre em busca de desenvolvimnto socioemocional, nosso squad sabe a importância do trabalho em equipe.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    
+    <div class="container d-flex align-items-center justify-content-between" data-aos="fade-up" data-aos-delay="300">
+      <div class="cmaterial">
+        <a href="" target="_blank">
+          <div class="cmaterial-overlay"></div>
+          <img class=" img-responsive" style="width:100%" src="assets/img/Untitled.png">
+          <div class="cmaterial-details fadeIn-bottom">
+            <p>Em todas as profissões, mas especialmente na TI, a chamada “Lifelong learning” é de extrema importância para um bom profissional. 
+              Baseada nisso, nossa equpe se atualiza constantemente sobre as novas tecnologias do mercado. 
+               </p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+  </section>
 
 
 </body>
