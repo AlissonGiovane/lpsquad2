@@ -624,6 +624,52 @@ Squad
     opacity: 80%;
 }
 
+iframe {
+  width: 50vw;
+  height: 28.125vw;
+  max-height: 100vh;
+  max-width: 177.78vw;
+  margin: auto;
+  position: absolute;
+  top: 700px;
+  left: -585px;
+  right: 0;
+  border-radius: 35px;
+}
+
+.textoteufuturo {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 40px;
+  line-height: 30px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 700px;
+  left: 780px;
+}
+
+#roxo {
+  color: #223E6B;
+}
+
+/*Contate-nos*/
+ 
+#contate-nos {
+  width: auto;
+  height: 600px;
+  background-color: #001029;
+}
+
+#contatenos p {
+  font-size: 55px;
+  color: white;
+  background-color: #001029;
+  text-align: center;
+  position: relative;
+  top: 600px;
+}
+
 
 /*--------------------------------------------------------------
 # Portfólio
