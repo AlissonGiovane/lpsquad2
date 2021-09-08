@@ -507,6 +507,7 @@ Desabilita Delay nos Dispositivos Mobile
   top: 50%;
   left: 50%;
   opacity: 1;
+  zoom: 115%;
 }
 
 .conteudo-details h3{
@@ -1152,6 +1153,137 @@ Desabilita Delay nos Dispositivos Mobile
 
 .fadeIn-bottom{
   top: 80%;
+}
+
+.img-responsive {
+  height: 480px;
+  width: auto;
+  border-radius: 50px;
+}
+
+#squad {
+position: absolute;
+top: 1400px;
+margin:0 0;
+padding:0 0;
+width: 100%;
+background-repeat: no-repeat;
+background-color: #001029;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.triangulo {
+  height: 0; 
+  border-top: 570px solid transparent;
+  border-right: 370px solid #001029;
+  position: absolute;
+  top: 0px;
+  left: 365px;
+  width: 480px;
+  margin: 0px;
+}
+#rectangle {
+  width: 200px;
+  height: 570px;
+  background: #001029;
+  position: absolute;
+  top: 0px;
+  left: 845px;
+}
+
+.textosquad {
+  padding: 0px 0px;
+  margin: 0px; 
+  display:block;
+  width: 500px;
+  color: white;
+}
+
+.textosquad h1 {
+  position: absolute;
+  top: -500px;
+  left: 495px; 
+  text-transform: uppercase;
+  font-family: Inter;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 53px;
+  width: 410px;
+}
+
+.textosquad h5 {
+  position: absolute;
+  top: -440px;
+  right: 0px;
+  left: 545px; 
+  box-sizing: border-box;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 22px;
+  text-align: center;
+  width: 300px;
+}
+
+.textosquad h3 {
+  position: absolute;
+  top: -350px;
+  right: 0px;
+  left: 400px; 
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 26px;
+  text-align: center;
+  width: 550px;
+  color: #E5E5E5;
+  opacity: 80%;
+}
+
+.textosquad h4 {
+  position: absolute;
+  top: -200px;
+  right: 0px;
+  left: 290px; 
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 30px;
+  width: 620px;
+  color: #E5E5E5;
+  opacity: 80%;
+}
+
+iframe {
+  width: 50vw;
+  height: 28.125vw;
+  max-height: 100vh;
+  max-width: 177.78vw;
+  margin: auto;
+  position: absolute;
+  top: 2100px;
+  left: -585px;
+  right: 0;
+  border-radius: 35px;
+}
+
+.textoteufuturo {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 59px;
+  line-height: 55px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 2200px;
+  left: 780px;
+  color: black;
+}
+
+#roxo {
+  color: #223E6B;
 }
 
 #tech{
