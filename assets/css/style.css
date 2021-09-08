@@ -528,6 +528,103 @@ Desabilita Delay nos Dispositivos Mobile
   top: 80%;
 }
 
+/*------------------------------------------------------------
+Squad
+--------------------------------------------------------------*/
+#squad {
+	margin:0 0;
+	padding:0 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: #001029;
+}
+
+.triangulo {
+	height: 0; 
+    border-top: 585px solid transparent;
+    border-right: 370px solid #001029;
+    position: absolute;
+    top: 7px;
+    width: 480px;
+    margin: 0px;
+}
+#rectangle {
+    width: 200px;
+    height: 585px;
+    background: #001029;
+    position: absolute;
+    top: 8px;
+    left: 850px;
+}
+
+.textosquad {
+    padding: 0px 0px;
+    margin: 0px;
+    display:block;
+    width: 500px;
+    color: white;
+}
+
+.textosquad h1 {
+    position: absolute;
+    top: -600px;
+    right: 0px;
+    left: 820px; 
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 1000px;
+    font-size: 55px;
+    width: 100%;
+    line-height: 168px;
+}
+
+.textosquad h5 {
+    position: absolute;
+    top: -480px;
+    right: 0px;
+    left: 800px; 
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900px;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+}
+
+.textosquad h3 {
+    position: absolute;
+    top: -400px;
+    right: 0px;
+    left: 800px; 
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800px;
+    font-size: 25px;
+    text-align: center;
+    width: 500px;
+    color: #E5E5E5;
+    opacity: 80%;
+}
+
+.textosquad h4 {
+    position: absolute;
+    top: -250px;
+    right: 0px;
+    left: 650px; 
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 30px;
+    width: 650px;
+    color: #E5E5E5;
+    opacity: 80%;
+}
+
+
 /*--------------------------------------------------------------
 # Portfólio
 --------------------------------------------------------------*/
