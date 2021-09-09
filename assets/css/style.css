@@ -534,9 +534,9 @@ Squad
 #squad {
 	margin:0 0;
 	padding:0 0;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-color: #001029;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-color: #001029;
 }
 
 .triangulo {
@@ -544,17 +544,17 @@ Squad
     border-top: 585px solid transparent;
     border-right: 370px solid #001029;
     position: absolute;
-    top: 7px;
+    top: 600px;
     width: 480px;
     margin: 0px;
 }
 #rectangle {
-    width: 200px;
-    height: 585px;
     background: #001029;
     position: absolute;
-    top: 8px;
-    left: 850px;
+    top: 900px;
+    left: 850px; 
+    width: 200px;
+    height: 585px;
 }
 
 .textosquad {
@@ -567,7 +567,7 @@ Squad
 
 .textosquad h1 {
     position: absolute;
-    top: -600px;
+    top: -500px;
     right: 0px;
     left: 820px; 
     text-transform: uppercase;
@@ -653,22 +653,6 @@ iframe {
   color: #223E6B;
 }
 
-/*Contate-nos*/
- 
-#contate-nos {
-  width: auto;
-  height: 600px;
-  background-color: #001029;
-}
-
-#contatenos p {
-  font-size: 55px;
-  color: white;
-  background-color: #001029;
-  text-align: center;
-  position: relative;
-  top: 600px;
-}
 
 
 /*--------------------------------------------------------------
@@ -1304,4 +1288,21 @@ iframe {
   color: #04142c;
   padding-bottom: 5%;
   margin-left: 0%;
+}
+
+/*Contate-nos*/
+ 
+#contate-nos {
+  width: auto;
+  height: 600px;
+  background-color: #001029;
+}
+
+#contatenos p {
+  font-size: 55px;
+  color: white;
+  background-color: #001029;
+  text-align: center;
+  position: relative;
+  top: 600px;
 }

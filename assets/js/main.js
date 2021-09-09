@@ -79,9 +79,9 @@ envioMensagem.addEventListener("click", function(event) {
     event.preventDefault();
 
         var form = document.querySelector("#form-mensagem");
-		var dados = obtemMensagem(form);
+		  var dados = obtemMensagem(form);
         form.reset();
-    	console.log(dados);
+    	  console.log(dados);
         alert("O e-mail foi enviado com sucesso!");
 	});
 
