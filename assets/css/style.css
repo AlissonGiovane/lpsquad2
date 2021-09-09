@@ -46,19 +46,18 @@ Desabilita Delay nos Dispositivos Mobile
 
 #Cabecalho .logo {
   font-size: 30px;
-  margin: 0;
   padding: 0;
   line-height: 1;
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
-  margin-left: -95%;
-  margin-top: -35%;
-  z-index: 99999;
+  margin-left: -90%;
+  margin-top: -30%;
+  z-index: 999999;
 }
 
 #Cabecalho .logo a {
-  color: rgb(255, 255, 255);
+  color: #fff;
 }
 
 #Cabecalho .logo img {
@@ -75,8 +74,6 @@ Desabilita Delay nos Dispositivos Mobile
 
 .navbar {
   padding: 0;
-  background-color: #fff;
-  color: #000000;
 }
 
 .navbar ul {
@@ -102,7 +99,7 @@ Desabilita Delay nos Dispositivos Mobile
   justify-content: space-between;
   padding: 25px 15px 24px 15px;
   font-size: 14px;
-  color: rgb(255, 255, 255);
+  color: #fff;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -176,7 +173,6 @@ Desabilita Delay nos Dispositivos Mobile
     left: -100%;
   }
 }
-
 
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
@@ -465,7 +461,7 @@ Desabilita Delay nos Dispositivos Mobile
 
 .conteudo {
   position: relative;
-  width: 90%;
+  width: 100%;
   max-width: 400px;
   margin: auto;
   overflow: hidden;
@@ -533,11 +529,148 @@ Desabilita Delay nos Dispositivos Mobile
   top: 80%;
 }
 
+/*------------------------------------------------------------
+Squad
+--------------------------------------------------------------*/
+#squad {
+	margin: 0 0;
+  margin-top: 550px;
+  padding-bottom: 0px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-color: #001029;
+}
+
+.triangulo {
+	  height: 0; 
+    border-top: 585px solid transparent;
+    border-right: 350px solid #001029;
+    position: absolute;
+    top: 1326px;
+    left: -20px;
+    margin: 0px;
+}
+#rectangle {
+    background: #001029;
+    position: absolute;
+    top: 1326px;
+    left: 830px; 
+    width: 200px;
+    height: 585px;
+}
+
+.textosquad {
+    padding: 0px 0px;
+    margin: 0px;
+    display:block;
+    width: 500px;
+    color: white;
+}
+
+.textosquad h1 {
+    position: absolute;
+    top: -560px;
+    right: 0px;
+    left: 865px; 
+    text-transform: uppercase;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 55px;
+    width: 100%;
+    line-height: 168px;
+}
+
+.textosquad h5 {
+    position: absolute;
+    top: -450px;
+    right: 0px;
+    left: 820px; 
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+}
+
+.textosquad h3 {
+    position: absolute;
+    top: -380px;
+    right: 0px;
+    left: 800px; 
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+    width: 500px;
+    color: #E5E5E5;
+    opacity: 80%;
+}
+
+.textosquad h4 {
+    position: absolute;
+    top: -230px;
+    right: 0px;
+    left: 669px; 
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 30px;
+    width: 650px;
+    color: #E5E5E5;
+    opacity: 80%;
+}
+
+/* -------- Vídeo Teu Futuro ---------*/
+
+.teufuturo {
+  width: 600px;
+  height: 600px;
+  background-color: white;
+}
+
+iframe {
+  width: 50vw;
+  height: 28.125vw;
+  max-height: 100vh;
+  max-width: 177.78vw;
+  margin: auto;
+  position: absolute;
+  top: 2040px;
+  left: -585px;
+  right: 0;
+  border-radius: 35px;
+}
+
+.textoteufuturo {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 59px;
+  line-height: 62px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 2095px;
+  left: 780px;
+  color: black;
+}
+
+#roxo {
+  color: #223E6B;
+}
+
+
+
 /*--------------------------------------------------------------
 # Portfólio
 --------------------------------------------------------------*/
 
 .portfolio {
+  
   background-color: #04142c;
   padding-left: 0%;
   width: 100%;
@@ -553,7 +686,7 @@ Desabilita Delay nos Dispositivos Mobile
   padding-top: 56.25%;
   padding-bottom: -50%;
   margin-left: 1%;
-  margin-top: 10%;
+  margin-top: 20%;
 }
 
 #video1{
@@ -802,7 +935,7 @@ Desabilita Delay nos Dispositivos Mobile
   margin-left: 0%;
 }
 
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */ 
 @media screen and (max-width: 600px) {
   #portfolio h1{
     font-size: 33px;
@@ -1047,6 +1180,7 @@ Desabilita Delay nos Dispositivos Mobile
 
 .nossa-visao {
   padding-top: 5%;
+  padding-bottom: 0;
 }
 
 .nossa-visao h1{
@@ -1166,4 +1300,95 @@ Desabilita Delay nos Dispositivos Mobile
   color: #04142c;
   padding-bottom: 5%;
   margin-left: 0%;
+}
+
+/*Contate-nos*/
+ 
+#fale-conosco {
+  position: absolute;
+  top: 1100%;
+  background-color: #001029;
+  height: 800px;
+  width: 100%;
+  padding: 20px;
+}
+
+#titulo-form {
+  font-size: 55px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 0px;
+  margin: 0;
+  padding: 0;
+}
+
+.campo{
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%,-50%);
+  width: 50%;
+  background: #001029;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.campo h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #332902;
+}
+
+.campo .preencher{
+  margin-bottom: 10px;
+}
+
+.campo .preencher input[type="text"],
+.campo textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.campo textarea{
+  resize: none;
+  height: 80px;
+}
+
+.campo .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #ffffff;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#mensagem_de_erro{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+#mensagens{
+  position: absolute;
+  left: 60%;
+  top: 20%;
 }
