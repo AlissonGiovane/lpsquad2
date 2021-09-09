@@ -534,7 +534,7 @@ Squad
 #squad {
 	margin: 0 0;
   margin-top: 550px;
-	padding:0 0;
+  padding-bottom: 1300px;
   width: 100%;
   background-repeat: no-repeat;
   background-color: #001029;
@@ -625,6 +625,13 @@ Squad
 }
 
 /* -------- Vídeo Teu Futuro ---------*/
+
+.teufuturo {
+  width: 600px;
+  height: 600px;
+  background-color: white;
+}
+
 iframe {
   width: 50vw;
   height: 28.125vw;
@@ -662,6 +669,7 @@ iframe {
 --------------------------------------------------------------*/
 
 .portfolio {
+  
   background-color: #04142c;
   padding-left: 0%;
   width: 100%;
@@ -670,7 +678,7 @@ iframe {
 }
 
 #cont1{
-  position: absolute;
+  position: relative;
   overflow: hidden;
   width: 100%;
   height: 100%;
