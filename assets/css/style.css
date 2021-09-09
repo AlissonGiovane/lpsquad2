@@ -52,11 +52,13 @@ Desabilita Delay nos Dispositivos Mobile
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
-  margin-left: -300px;
+  margin-left: -95%;
+  margin-top: -35%;
+  z-index: 99999;
 }
 
 #Cabecalho .logo a {
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 #Cabecalho .logo img {
@@ -73,6 +75,8 @@ Desabilita Delay nos Dispositivos Mobile
 
 .navbar {
   padding: 0;
+  background-color: #fff;
+  color: #000000;
 }
 
 .navbar ul {
@@ -98,7 +102,7 @@ Desabilita Delay nos Dispositivos Mobile
   justify-content: space-between;
   padding: 25px 15px 24px 15px;
   font-size: 14px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -172,6 +176,7 @@ Desabilita Delay nos Dispositivos Mobile
     left: -100%;
   }
 }
+
 
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
