@@ -7,11 +7,10 @@ envioMensagem.addEventListener("click", function(event) {
         var form = document.querySelector("#form-mensagem");
 		var dados = obtemMensagem(form);
     	console.log(dados);
-	
-		/*if (validarFormContato = true) {
+		if (formValida == true) {
         alert("O e-mail foi enviado com sucesso!");
 		form.reset();
-		}*/
+		}
 	}); 
 
     function obtemMensagem(form) {
@@ -29,28 +28,35 @@ envioMensagem.addEventListener("click", function(event) {
 		var email = formcontato.email.value;
 		var telefone = formcontato.telefone.value;
 		var mensagem = formcontato.mensagem.value;
+		var formValida == true;
 
 		if(nome == "") {
 			alert("Campo nome é obrigatório");
 			formcontato.nome.focus();
 			return false;
+			formValida == false;
 		}
 
 		if(email == "") {
 			alert("Campo email é obrigatório");
 			formcontato.email.focus();
 			return false;
+			formValida = false;
 		}
 
 		if(telefone == "") {
 			alert("Campo telefone é obrigatório");
 			formcontato.telefone.focus();
 			return false;
+			formValida = false;
 		}
 
 		if(mensagem == "") {
 			alert("Campo mensagem é obrigatório");
 			formcontato.mensagem.focus();
 			return false;
+			formValida == false;
 		} 
+
 	}
+
