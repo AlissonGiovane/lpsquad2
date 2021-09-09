@@ -1294,17 +1294,23 @@ iframe {
 
 /*Contate-nos*/
  
-#contate-nos {
-  width: auto;
-  height: 600px;
+#contate {
+  position: absolute;
+  top: 5000px;
   background-color: #001029;
+  height: 800px;
+  width: 100%;
 }
 
-#contatenos p {
-  font-size: 55px;
+#titulo-form {
+  font-size: 60px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bolder;
+  text-transform: uppercase;
   color: white;
   background-color: #001029;
   text-align: center;
   position: relative;
-  top: 600px;
+  top: 0px;
 }
