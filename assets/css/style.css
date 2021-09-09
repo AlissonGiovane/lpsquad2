@@ -1300,10 +1300,11 @@ iframe {
   background-color: #001029;
   height: 800px;
   width: 100%;
+  padding: 20px;
 }
 
 #titulo-form {
-  font-size: 60px;
+  font-size: 55px;
   font-family: Inter;
   font-style: normal;
   font-weight: bolder;
@@ -1313,4 +1314,55 @@ iframe {
   text-align: center;
   position: relative;
   top: 0px;
+  margin: 0;
+  padding: 0;
 }
+
+.campo-medio{
+  height: 55px;
+  width: 50%;
+  border-radius: 20px;
+  border: none;
+}
+
+#mensagens {
+  position: absolute;
+  top: 150px;
+  left: 850px;
+}
+
+#mensagem {
+  height: 180px;
+}
+
+.grupo label {
+  font-family: Inter;
+  font-size: 20px;
+  color: #E5E5E5;
+  opacity: 80%;
+   
+}
+
+#enviomensagem {
+  border: none;
+  border-radius: 15px;
+  color: black;
+  opacity: 90%;
+  background: #E5E5E5;
+  height: 50px;
+  width: 100px;
+  font: bold 17px arial, sans-serif;
+  text-shadow:none;
+  position: relative;
+  top: 20px;
+}
+
+#enviomensagem:hover {
+  background: #2284df;
+  color: black;
+  opacity: 90%;
+  border: 1px solid #eee;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px #eee;
+  text-shadow:none;
+  }

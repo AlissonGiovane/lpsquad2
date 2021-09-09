@@ -274,27 +274,27 @@
 <section id="contate">
   <p id="titulo-form">Contate-nos</p>
       <div id="formulario">
-      <form id="form-mensagem">
+      <form id="form-mensagem" name="formcontato">
           <div class="grupo">
-              <label for="nome">Nome</label>
-              <input id="nome" name="nome" type="text" placeholder="Seu nome" class="campo">
+              <label for="nome">Nome</label><br>
+              <input id="nome" name="nome" type="text" placeholder="Seu nome" class="campo-medio">
           </div>
           <div class="grupo">
-              <label for="email">E-mail</label>
-              <input id="email" name="email" type="text" placeholder="Seu e-mail" class="campo campo-medio">
+              <label for="email">E-mail</label><br>
+              <input id="email" name="email" type="text" placeholder="Seu e-mail" class="campo-medio">
           </div>
           <div class="grupo">
-              <label for="telefone">Telefone</label>
-              <input id="telefone" name="telefone" type="number" placeholder="Seu telefone" class="campo campo-medio">
+              <label for="telefone">Telefone</label><br>
+              <input id="telefone" name="telefone" type="number" placeholder="Seu telefone" class="campo-medio">
           </div>
           <div class="grupo">
-              <label for="mensagem">Mensagem</label>
-              <input id="mensagem" type="text" placeholder="Mensagem" class="campo campo-medio" maxlength="5">
+              <label for="mensagem">Mensagem</label><br>
+              <input id="mensagem" type="text" placeholder="Digite sua mensagem" class="campo-medio">
           </div>
-          <button id="enviomensagem" class="botao bto-principal">Enviar</button>
+          <input type="submit" value="Enviar" onclick="return validarFormContato()" id="enviomensagem" class="botao bto-principal">
       </form>
       <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-      <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_kOcCeF.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+      <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_kOcCeF.json"  background="transparent"  speed="1"  style="width: 400px; height: 400px;"  loop  autoplay id="mensagens"></lottie-player>
   </div>
   </section><!--fim de contate-->
   <script src="assets/js/sobresquad.js"></script>
