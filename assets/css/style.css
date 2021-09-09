@@ -460,7 +460,7 @@ Desabilita Delay nos Dispositivos Mobile
 
 .conteudo {
   position: relative;
-  width: 90%;
+  width: 100%;
   max-width: 400px;
   margin: auto;
   overflow: hidden;
@@ -532,7 +532,8 @@ Desabilita Delay nos Dispositivos Mobile
 Squad
 --------------------------------------------------------------*/
 #squad {
-	margin:0 0;
+	margin: 0 0;
+  margin-top: 550px;
 	padding:0 0;
   width: 100%;
   background-repeat: no-repeat;
@@ -540,19 +541,19 @@ Squad
 }
 
 .triangulo {
-	height: 0; 
+	  height: 0; 
     border-top: 585px solid transparent;
-    border-right: 370px solid #001029;
+    border-right: 350px solid #001029;
     position: absolute;
-    top: 600px;
-    width: 480px;
+    top: 1326px;
+    left: -20px;
     margin: 0px;
 }
 #rectangle {
     background: #001029;
     position: absolute;
-    top: 900px;
-    left: 850px; 
+    top: 1326px;
+    left: 830px; 
     width: 200px;
     height: 585px;
 }
@@ -567,14 +568,13 @@ Squad
 
 .textosquad h1 {
     position: absolute;
-    top: -500px;
+    top: -560px;
     right: 0px;
-    left: 820px; 
+    left: 865px; 
     text-transform: uppercase;
-    text-align: center;
     font-family: Inter;
     font-style: normal;
-    font-weight: 1000px;
+    font-weight: bolder;
     font-size: 55px;
     width: 100%;
     line-height: 168px;
@@ -582,12 +582,12 @@ Squad
 
 .textosquad h5 {
     position: absolute;
-    top: -480px;
+    top: -450px;
     right: 0px;
-    left: 800px; 
+    left: 820px; 
     font-family: Inter;
     font-style: normal;
-    font-weight: 900px;
+    font-weight: bolder;
     font-size: 22px;
     text-align: center;
     width: 100%;
@@ -595,12 +595,12 @@ Squad
 
 .textosquad h3 {
     position: absolute;
-    top: -400px;
+    top: -380px;
     right: 0px;
     left: 800px; 
     font-family: Inter;
     font-style: normal;
-    font-weight: 800px;
+    font-weight: bolder;
     font-size: 25px;
     text-align: center;
     width: 500px;
@@ -610,9 +610,9 @@ Squad
 
 .textosquad h4 {
     position: absolute;
-    top: -250px;
+    top: -230px;
     right: 0px;
-    left: 650px; 
+    left: 669px; 
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -624,6 +624,7 @@ Squad
     opacity: 80%;
 }
 
+/* -------- Vídeo Teu Futuro ---------*/
 iframe {
   width: 50vw;
   height: 28.125vw;
@@ -631,7 +632,7 @@ iframe {
   max-width: 177.78vw;
   margin: auto;
   position: absolute;
-  top: 700px;
+  top: 2040px;
   left: -585px;
   right: 0;
   border-radius: 35px;
@@ -641,12 +642,13 @@ iframe {
   font-family: Inter;
   font-style: normal;
   font-weight: bolder;
-  font-size: 40px;
-  line-height: 30px;
+  font-size: 59px;
+  line-height: 62px;
   text-transform: uppercase;
   position: absolute;
-  top: 700px;
+  top: 2095px;
   left: 780px;
+  color: black;
 }
 
 #roxo {
@@ -668,14 +670,14 @@ iframe {
 }
 
 #cont1{
-  position: relative;
+  position: absolute;
   overflow: hidden;
   width: 100%;
   height: 100%;
   padding-top: 56.25%;
   padding-bottom: -50%;
   margin-left: 1%;
-  margin-top: 10%;
+  margin-top: 20%;
 }
 
 #video1{
@@ -924,7 +926,7 @@ iframe {
   margin-left: 0%;
 }
 
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */ 
 @media screen and (max-width: 600px) {
   #portfolio h1{
     font-size: 33px;
