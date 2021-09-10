@@ -1,3 +1,4 @@
+
 function validate(){
 	var nome = document.getElementById("nome").value;
 	var telefone = document.getElementById("telefone").value;
@@ -31,3 +32,4 @@ function validate(){
 	alert("Formulário enviado com sucesso!");
 	return true;
   }
+
