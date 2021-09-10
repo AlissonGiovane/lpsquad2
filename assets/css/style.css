@@ -1308,9 +1308,9 @@ iframe {
  
 #fale-conosco {
   position: absolute;
-  top: 1230%;
+  top: 1200%;
   background-color: #001029;
-  height: 800px;
+  height: 700px;
   width: 100%;
   padding: 20px;
 }
@@ -1401,97 +1401,99 @@ iframe {
 
 #contatos {
   position: absolute;
-  top: 8100px;
+  top: 7995px;
   left: 0px;
-  height: 700px;
+  height: 600px;
   width: 100%;
   padding: 0;
   margin: 0;
   background-color: white;
-
+ 
 }
+
 
 #textoContatos {
- color: #001029;
- position: relative;
- top: -350px;
- height: 100%;
- left: 10px;
- width: 50%;
- display: inline-block;
- padding-left: 8px;
- padding-right: 8px;
- font-family: Inter;
- font-size: 57px;
- font-weight: bolder;
- text-align: center;
-}
-
-.icones {
-color: white;
-background-color: #001029;
-position: relative;
-display: inline-block;
-top: 0%;
-width: 670px;
-height: 950px;
-} 
-
-.socialmidias {
-  padding: 5px;
-}
-
-.img-icon {
-  
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-
-.icones ul {
-  list-style: none;
-}
-
-li {
-  padding-top:15px;
-}
-
-
-.socialmidias {
-  width: 50px;
-  height: 50px;
-}
-
-.linkedin-icon img{
-  width: 10px;
-  height: 10px;
-}
-
-.titulo {
-  color:#001029;
+  color: #001029;
+  position: relative;
+  top: -350px;
+  height: 650px;
+  left: 10px;
+  width: 50%;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
   font-family: Inter;
+  font-size: 57px;
+  font-weight: bolder;
   text-align: center;
-  font-weight: bold;
-  font-size: 20px;
-  padding-top: 6px;
-  margin-top: 0px;
-  margin-bottom: 0;
-  background-color: white;
-  opacity: 95%;
-  width: 100%;
-  height: 45px;
+ }
   
-}
+ .icones {
+ color: white;
+ background-color: #001029;
+ position: relative;
+ display: inline-block;
+ top: 0%;
+ width: 670px;
+ height: 780px;
+ } 
+  
+ .socialmidias {
+   padding: 5px;
+ }
+  
+ .img-icon {
+   
+   margin-top: 0;
+   margin-bottom: 1rem;
+ }
+  
+ .icones ul {
+   list-style: none;
+ }
+  
+ .titulo li {
+   padding-top:0;
 
+ }
+  
+  
+ .socialmidias {
+   width: 50px;
+   height: 50px;
+ }
+  
+ .linkedin-icon img{
+   width: 10px;
+   height: 10px;
+ }
+  
+ .titulo {
+   color:#001029;
+   font-family: Inter;
+   text-align: center;
+   font-weight: bold;
+   font-size: 20px;
+   padding-top: 6px;
+   margin-top: 0px;
+   margin-bottom: 0;
+   background-color: white;
+   opacity: 95%;
+   width: 100%;
+   height: 45px;
+   
+ }
 
+ 
 /* RODAPÉ */
 footer{
   font-family: 'Inter', sans-serif;
   color: rgba(255, 255, 255, 0.84);
   position: relative;
-  top: 2355px;
+  top: 2380px;
   height:100px;
 }
-
+ 
 .footer{
   background: #001029;
   opacity: 95%;
@@ -1500,7 +1502,7 @@ footer{
   flex-direction: column;
   text-align: center;
   height: 100px;
-
+ 
 }
 .footer h2{
   position: absolute;
@@ -1512,7 +1514,7 @@ footer{
   text-transform: uppercase;
   font-weight: bold;
 }
-
+ 
 .menu{
   list-style: none;
   display: flex;
@@ -1532,7 +1534,7 @@ color: #999999;
 font-size: 13px;
 font-weight: 400;
 }
-
+ 
 .bottom{
   position: absolute;
   background: #001029;
@@ -1542,4 +1544,5 @@ font-weight: 400;
   font-weight: bold;
   height:50px;
 }
+
 
