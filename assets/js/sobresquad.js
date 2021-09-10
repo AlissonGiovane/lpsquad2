@@ -1,62 +1,35 @@
 
-var envioMensagem = document.querySelector("#enviomensagem");
-
-envioMensagem.addEventListener("click", function(event) {
-    event.preventDefault();
-
-        var form = document.querySelector("#form-mensagem");
-		var dados = obtemMensagem(form);
-    	console.log(dados);
-		if (formValida == true) {
-        alert("O e-mail foi enviado com sucesso!");
-		form.reset();
-		}
-	}); 
-
-    function obtemMensagem(form) {
-		var dados = {
-			nome: form.nome.value,
-		    email: form.email.value,
-		    telefone: form.telefone.value,
-		    mensagem: form.mensagem.value,
-		}
-		return dados;
+function validate(){
+	var nome = document.getElementById("nome").value;
+	var telefone = document.getElementById("telefone").value;
+	var email = document.getElementById("email").value;
+	var mensagem = document.getElementById("mensagem").value;
+	var mensagem_de_erro = document.getElementById("mensagem_de_erro");
+	
+	mensagem_de_erro.style.padding = "10px";
+	
+	var texto;
+	if(nome.length < 5){
+	  texto = "Coloque um nome válido";
+	  mensagem_de_erro.innerHTML = texto;
+	  return false;
 	}
-
-	function validarFormContato (){
-		var nome = formcontato.nome.value;
-		var email = formcontato.email.value;
-		var telefone = formcontato.telefone.value;
-		var mensagem = formcontato.mensagem.value;
-		var formValida == true;
-
-		if(nome == "") {
-			alert("Campo nome é obrigatório");
-			formcontato.nome.focus();
-			return false;
-			formValida == false;
-		}
-
-		if(email == "") {
-			alert("Campo email é obrigatório");
-			formcontato.email.focus();
-			return false;
-			formValida = false;
-		}
-
-		if(telefone == "") {
-			alert("Campo telefone é obrigatório");
-			formcontato.telefone.focus();
-			return false;
-			formValida = false;
-		}
-
-		if(mensagem == "") {
-			alert("Campo mensagem é obrigatório");
-			formcontato.mensagem.focus();
-			return false;
-			formValida == false;
-		} 
-
+	if(isNaN(telefone) || telefone.length < 10){
+	  texto = "Por favor coloque um número válido";
+	  mensagem_de_erro.innerHTML = texto;
+	  return false;
 	}
+	if(email.indexOf("@") == -1 || email.length < 6){
+	  texto = "Por favor coloque um email válido";
+	  mensagem_de_erro.innerHTML = texto;
+	  return false;
+	}
+	if(mensagem.length <= 10){
+	  texto = "Por favor coloque uma mensagem com mais de 10 caracteres";
+	  mensagem_de_erro.innerHTML = texto;
+	  return false;
+	}
+	alert("Formulário enviado com sucesso!");
+	return true;
+  }
 

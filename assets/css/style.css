@@ -46,13 +46,14 @@ Desabilita Delay nos Dispositivos Mobile
 
 #Cabecalho .logo {
   font-size: 30px;
-  margin: 0;
   padding: 0;
   line-height: 1;
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
-  margin-left: -300px;
+  margin-left: -90%;
+  margin-top: -30%;
+  z-index: 999999;
 }
 
 #Cabecalho .logo a {
@@ -464,6 +465,7 @@ Desabilita Delay nos Dispositivos Mobile
   max-width: 400px;
   margin: auto;
   overflow: hidden;
+  border-radius: 25px;
 }
 
 .conteudo .conteudo-overlay {
@@ -534,7 +536,7 @@ Squad
 #squad {
 	margin: 0 0;
   margin-top: 550px;
-  padding-bottom: 1300px;
+  padding-bottom: 0px;
   width: 100%;
   background-repeat: no-repeat;
   background-color: #001029;
@@ -574,8 +576,8 @@ Squad
     text-transform: uppercase;
     font-family: Inter;
     font-style: normal;
-    font-weight: bolder;
-    font-size: 55px;
+    font-weight: bold;
+    font-size: 50px;
     width: 100%;
     line-height: 168px;
 }
@@ -587,8 +589,8 @@ Squad
     left: 820px; 
     font-family: Inter;
     font-style: normal;
-    font-weight: bolder;
-    font-size: 22px;
+    font-weight: bold;
+    font-size: 20px;
     text-align: center;
     width: 100%;
 }
@@ -600,8 +602,8 @@ Squad
     left: 800px; 
     font-family: Inter;
     font-style: normal;
-    font-weight: bolder;
-    font-size: 25px;
+    font-weight: bold;
+    font-size: 22px;
     text-align: center;
     width: 500px;
     color: #E5E5E5;
@@ -616,7 +618,7 @@ Squad
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 15px;
     text-align: justify;
     line-height: 30px;
     width: 650px;
@@ -1178,23 +1180,21 @@ iframe {
 }
 
 .nossa-visao {
-  padding-top: 5%;
+  padding-top: 50px;
 }
 
 .nossa-visao h1{
   text-align: center;
-  font-size: 58px;
+  font-size: 70px;
   font-weight: bold;
   line-height: 56px;
   text-transform: uppercase;
   color: rgb(3, 3, 17);
-  margin-bottom: -10%;
-  margin-left: -10%;
+  margin: 0px;
 }
 
 
 .container{
-  margin-top: 11%;
   padding: 1em 0;
   float: left;
   width: 50%;
@@ -1225,7 +1225,7 @@ iframe {
   margin: auto;
   overflow: hidden;
   margin-top: 25%;
-  margin-left: 0%;
+  margin-left: 10%;
 }
 
 .cmaterial .cmaterial-overlay {
@@ -1273,7 +1273,7 @@ iframe {
 
 .cmaterial-details h3{
   margin: 0 0 10px 0;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
   line-height:  56px;
   text-transform: uppercase;
@@ -1282,7 +1282,7 @@ iframe {
 
 .cmaterial-details p{
   color: #fff;
-  font-size: 35px;
+  font-size: 30px;
   font-family: "Raleway", sans-serif;
   margin-top: 40%;
 }
@@ -1292,19 +1292,19 @@ iframe {
 }
 
 #tech{
-  font-size: 26px;
+  font-size: 22px;
   line-height: 56px;
   text-align: center;
   color: #04142c;
   padding-bottom: 5%;
-  margin-left: 0%;
+  margin-right: 15%;
 }
 
 /*Contate-nos*/
  
-#contate {
+#fale-conosco {
   position: absolute;
-  top: 5000px;
+  top: 1230%;
   background-color: #001029;
   height: 800px;
   width: 100%;
@@ -1318,7 +1318,6 @@ iframe {
   font-weight: bolder;
   text-transform: uppercase;
   color: white;
-  background-color: #001029;
   text-align: center;
   position: relative;
   top: 0px;
@@ -1326,51 +1325,217 @@ iframe {
   padding: 0;
 }
 
-.campo-medio{
-  height: 55px;
-  width: 50%;
-  border-radius: 20px;
-  border: none;
-}
-
-#mensagens {
+.campo{
   position: absolute;
-  top: 150px;
-  left: 850px;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%,-50%);
+  width: 50%;
+  background: #001029;
+  padding: 25px;
+  border-radius: 5px;
 }
 
-#mensagem {
-  height: 180px;
+.campo h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #332902;
 }
 
-.grupo label {
-  font-family: Inter;
-  font-size: 20px;
-  color: #E5E5E5;
-  opacity: 80%;
-   
+.campo .preencher{
+  margin-bottom: 10px;
 }
 
-#enviomensagem {
-  border: none;
-  border-radius: 15px;
-  color: black;
-  opacity: 90%;
-  background: #E5E5E5;
+.campo .preencher input[type="text"],
+.campo textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.campo textarea{
+  resize: none;
+  height: 80px;
+}
+
+.campo .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #ffffff;
+  opacity: 95%;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.campo .btn input[type="submit"]:hover{
+  background: #ffffff;
+  opacity: 70%;
+}
+#mensagem_de_erro{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+#mensagens{
+  position: absolute;
+  left: 60%;
+  top: 20%;
+}
+
+#contatos {
+  position: absolute;
+  top: 8100px;
+  left: 0px;
+  height: 700px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+
+}
+
+#textoContatos {
+ color: #001029;
+ position: relative;
+ top: -350px;
+ height: 100%;
+ left: 10px;
+ width: 50%;
+ display: inline-block;
+ padding-left: 8px;
+ padding-right: 8px;
+ font-family: Inter;
+ font-size: 57px;
+ font-weight: bolder;
+ text-align: center;
+}
+
+.icones {
+color: white;
+background-color: #001029;
+position: relative;
+display: inline-block;
+top: 0%;
+width: 670px;
+height: 950px;
+} 
+
+.socialmidias {
+  padding: 5px;
+}
+
+.img-icon {
+  
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.icones ul {
+  list-style: none;
+}
+
+li {
+  padding-top:15px;
+}
+
+
+.socialmidias {
+  width: 50px;
   height: 50px;
-  width: 100px;
-  font: bold 17px arial, sans-serif;
-  text-shadow:none;
-  position: relative;
-  top: 20px;
 }
 
-#enviomensagem:hover {
-  background: #2284df;
-  color: black;
-  opacity: 90%;
-  border: 1px solid #eee;
-  border-radius: 15px;
-  box-shadow: 2px 2px 2px #eee;
-  text-shadow:none;
-  }
+.linkedin-icon img{
+  width: 10px;
+  height: 10px;
+}
+
+.titulo {
+  color:#001029;
+  font-family: Inter;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 6px;
+  margin-top: 0px;
+  margin-bottom: 0;
+  background-color: white;
+  opacity: 95%;
+  width: 100%;
+  height: 45px;
+  
+}
+
+
+/* RODAPÉ */
+footer{
+  font-family: 'Inter', sans-serif;
+  color: rgba(255, 255, 255, 0.84);
+  position: relative;
+  top: 2355px;
+  height:100px;
+}
+
+.footer{
+  background: #001029;
+  opacity: 95%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100px;
+
+}
+.footer h2{
+  position: absolute;
+  text-align: center;
+  font-size: 40px;
+  height: auto;
+  left: 40%;
+  padding-top: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.menu{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+  position: absolute;
+  height: 110px;
+  left: 38%;
+}
+.menu li{
+margin: 0 10px;
+margin-right: 15px;
+padding-right: 15px;
+border-right: 1px solid rgba(255, 255, 255, .3);
+color: #999999;
+font-size: 13px;
+font-weight: 400;
+}
+
+.bottom{
+  position: absolute;
+  background: #001029;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+  font-weight: bold;
+  height:50px;
+}
+

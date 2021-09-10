@@ -9,7 +9,10 @@
 
     <!-- Fonte do Google -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet"> 
+
     <!-- Arquivos CSS -->
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -31,14 +34,14 @@
 
     <h1 class="logo"><a href="index.html">Ten Eighteen</a></h1>
     
-    <nav id="navbar" class="navbar fixed-top">
+    <nav id="navbar" class="navbar fixed-top bg-dark fixed-top change color">
         <ul>
           <li><a class="nav-link scrollto active" href="quem-somos">Quem Somos?</a></li>
-          <li><a class="nav-link scrollto" href="#quem-somos">Nosso Squad</a></li>
-          <li><a class="nav-link scrollto" href="#">#TeuFuturo</a></li>
+          <li><a class="nav-link scrollto" href="#squad">Nosso Squad</a></li>
+          <li><a class="nav-link scrollto" href="#teufuturo">#TeuFuturo</a></li>
           <li><a class="nav-link scrollto" href="#portfolio">Portfólio</a></li>
           <li><a class="nav-link scrollto" href="#nossa-visao">Nossa Visão</a></li>
-          <li><a class="nav-link scrollto" href="#">Fale Conosco</a></li>
+          <li><a class="nav-link scrollto" href="#fale-conosco">Fale Conosco</a></li>
           <li><a class="nav-link scrollto" href="#">Contato</a></li>
           </li>
         </ul>
@@ -89,7 +92,7 @@
           <img class="img-responsive" style="width:100%" src="assets/img/Alisson.jpeg">
           <div class="conteudo-details fadeIn-bottom">
             <h3>Alisson </h3>
-            <p>Me Chamo Alisson Giovane da Silva, Sou estudante do Ensino Médio, e do Programa #TeuFuturo, Tenho 17 anos, tenho conhecimentos mais aprofundados em HTML,CSS, JS, e um conhecimento mais básico em C, ASP.NET, SQL e busco ingressar no mercado da programação.</p>
+            <p>Me Chamo Alisson Giovane da Silva, Sou estudante do Ensino Médio, e do Programa #TeuFuturo2021, Tenho 17 anos, tenho conhecimentos mais aprofundados em HTML,CSS, JS, e um conhecimento mais básico em C, ASP.NET, SQL e busco ingressar no mercado da programação.</p>
           </div>
         </a>
       </div>
@@ -103,7 +106,7 @@
           <div class="conteudo-details fadeIn-bottom">
             <h3>Gabrielle </h3>
             <p>Olá, eu sou a Gabrielle Kolzenti Arrache.
-              Atualmente curso o Ensino Médio e estudo programação, através do programa teu futuro 2021. Tenho habilidades técnicas em HTML, CSS e JS. Busco, através da tecnologia, impactar a vida das pessoas ao redor do mundo, tornando-o assim, um lugar melhor. Sempre me dedico a entregar o melhor que tenho a oferecer, procurando desenvolver também minhas habilidades socioemocionais.</p>
+              Atualmente curso o Ensino Médio e estudo programação, através do programa #TeuFuturo2021. Tenho habilidades técnicas em HTML, CSS e JS. Busco, através da tecnologia, impactar a vida das pessoas ao redor do mundo, tornando-o assim, um lugar melhor. Sempre me dedico a entregar o melhor que tenho a oferecer, procurando desenvolver também minhas habilidades socioemocionais.</p>
           </div>
         </a>
       </div>
@@ -126,7 +129,7 @@
 </section> <!--squad-->
 
 <!--Vídeo teu Futuro-->
-<section class="teufuturo">
+<section class="teufuturo" id="teufuturo">
   <iframe src="https://drive.google.com/file/d/1_ngYeowgcLFerAHCq8rY_eDZbjnBfm37/preview" allow="autoplay"></iframe>
   <div class="textoteufuturo">
       <p>O que o</p>
@@ -135,7 +138,7 @@
   </div>  
 </section>
 
-  <!-- ======= Portfólio ======= 
+  
   <section id="portfolio" class="portfolio" data-aos="fade-up" data-aos-delay="600">
     <div class="container-fluid ">
       <div class="row col-lg-6 col-md-3 col-sm-3" data-aos="fade-up" data-aos-delay="600">
@@ -226,7 +229,7 @@
   </section > <!--Fim do Portifólio --> 
 
 
-  <!-- Nossa visão 
+   
   <section id="nossa-visao" class="nossa-visao" data-aos="fade-up" data-aos-delay="700">
 
     <h1>NOSSA VISÃO</h1>
@@ -270,34 +273,85 @@
     </div>
 
   </section>
--->
-<section id="contate">
-  <p id="titulo-form">Contate-nos</p>
-      <div id="formulario">
-      <form id="form-mensagem" name="formcontato">
-          <div class="grupo">
-              <label for="nome">Nome</label><br>
-              <input id="nome" name="nome" type="text" placeholder="Seu nome" class="campo-medio">
-          </div>
-          <div class="grupo">
-              <label for="email">E-mail</label><br>
-              <input id="email" name="email" type="text" placeholder="Seu e-mail" class="campo-medio">
-          </div>
-          <div class="grupo">
-              <label for="telefone">Telefone</label><br>
-              <input id="telefone" name="telefone" type="number" placeholder="Seu telefone" class="campo-medio">
-          </div>
-          <div class="grupo">
-              <label for="mensagem">Mensagem</label><br>
-              <input id="mensagem" type="text" placeholder="Digite sua mensagem" class="campo-medio">
-          </div>
-          <input type="submit" value="Enviar" onclick="return validarFormContato()" id="enviomensagem" class="botao bto-principal">
+
+  <section id="fale-conosco">
+    <p id="titulo-form">Contate-nos</p>
+
+    <div class="campo">
+
+      <div id="mensagem_de_erro">
+         
+      </div>
+
+      <form action="" id="formulario" onsubmit = "return validate();">
+        <div class="preencher">
+            <input type="text" placeholder="Nome" id="nome">
+        </div>
+        <div class="preencher">
+            <input type="text" placeholder="Telefone" id="telefone">
+        </div>
+        <div class="preencher">
+            <input type="text" placeholder="Email" id="email">
+        </div>
+        <div class="preencher">
+            <textarea placeholder="Mensagem" id="mensagem"></textarea>
+        </div>
+        <div class="btn">
+            <input type="submit" class="Enviar" value="Enviar">
+        </div>
       </form>
-      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-      <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_kOcCeF.json"  background="transparent"  speed="1"  style="width: 400px; height: 400px;"  loop  autoplay id="mensagens"></lottie-player>
-  </div>
-  </section><!--fim de contate-->
+    </div>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_kOcCeF.json"  background="transparent"  speed="1"  style="width: 400px; height: 400px;"  loop  autoplay id="mensagens"></lottie-player>
+    </section>
+
   <script src="assets/js/sobresquad.js"></script>
+
+<section id="contatos">
+    <div id="textoContatos">
+    <p>Se preferir, acompanhe nossa equipe ou fale conosco através dos contatos</p>
+    </div>
+    <div class="icones">
+      <p class="titulo">Gabrielle Kolzenti Arrache</p>
+        <ul>
+            <li class= "text"><img src="linkedin-3-xxl.png" class= "socialmidias">linkedin.com/in/gabrielle-arrache</li>
+            <li class= "text"><img src="whatsapp-xxl.png" class= "socialmidias">(51) 986391873</li>
+            <li class= "text"><img src="icons8-gmail-32.png" class= "socialmidias">gabriellekolzenti@gmail.com</li>
+            <li class= "text"><img src="github-11-xxl.png" class= "socialmidias">Gabrielle1810 </li>
+        </ul>
+      <p class="titulo">Julianne Emanuelle Martins</p>
+          <ul>
+            <li class= "text"><img src="linkedin-3-xxl.png" class= "socialmidias">linkedin.com/in/julianne-martins-14b079212</li>
+            <li class= "text"><img src="whatsapp-xxl.png" class= "socialmidias">(51)982987911</li>
+            <li class= "text"><img src="icons8-gmail-32.png" class= "socialmidias">julianne.emanuelle2015@gmail.com</li>
+            <li class= "text"><img src="github-11-xxl.png" class= "socialmidias">juliannemartins</li>
+          </ul>
+      <p class="titulo">Alisson Giovane Da Silva</p>
+        <ul>
+            <li class= "text"><img src="linkedin-3-xxl.png" class= "socialmidias">linkedin.com/in/alissogiovanetech</li>
+            <li class= "text"><img src="whatsapp-xxl.png" class= "socialmidias">(51)984584172</li>
+            <li class= "text"><img src="icons8-gmail-32.png" class= "socialmidias">giovanecontact@gmail.com</li>
+            <li class= "text"><img src="github-11-xxl.png" class= "socialmidias">ArioN666</li>
+        </ul>
+    </div>
+</section>
+
+<!----------------Rodapé--------------------->
+  <footer>
+    <div class= footer>
+        <h2>Ten Eighteen</h2>
+        <ul class="menu">
+            <li>Sobre</a></li>
+            <li>Termos</li>
+            <li>Privacidade</li>
+        </ul>
+    </div>
+    <div class= bottom>
+        <p> &copy; Copyright 2021 Ten Eighteen</p>
+    </div>
+  </footer>
+
+
 </body>
 
 </html>
