@@ -12,7 +12,7 @@
 ## Descrição do projeto 
 
 <p id="descrição-do-projeto" text-align="justify">
-  Uma landing page que aborda sobre o squad 2 do programa #teufuturo de 2021. Ten Eighteen foi o nome escolhido para representar o squad devido a data de nascimento dos integrantes (18/10). 
+  Uma landing page que aborda sobre o squad 2 do programa #teufuturo de 2021. Ten Eighteen foi o nome escolhido para representar o squad devido a data de nascimento dos integrantes (18/10) 
 </p>
 
 ## Linguagens, dependencias e libs utilizadas :books:
